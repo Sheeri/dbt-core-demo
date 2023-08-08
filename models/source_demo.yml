@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: production_raw
+    database: CONNECTIVITY_RAW
+    schema: PRODUCTION
+    tables:
+      - name: Product
+  - name: sales_raw
+    database: CONNECTIVITY_RAW
+    schema: SALES
+    tables:
+      - name: Customer
+  - name: person_raw
+    database: CONNECTIVITY_RAW
+    schema: PERSON
+    tables:
+      - name: Address
+      - name: StateProvince
+      - name: Individual
+      - name: PersonPhone
+      - name: BusinessEntityAddress
+      - name: EmailAddress
